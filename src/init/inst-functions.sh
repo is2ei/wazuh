@@ -974,7 +974,7 @@ InstallServer()
     fi
 
     ### Install Python
-    ${MAKEBIN} wpython PREFIX=${PREFIX} ${CPYTHON_FLAGS}
+    ${MAKEBIN} wpython PREFIX=${PREFIX}
 }
 
 InstallAgent()
